@@ -1,0 +1,8 @@
+resolver: nightly-2016-09-09
+packages:
+- '.'
+- location: vendor/constraints
+  extra-dep: true
+nix:
+  shell-file: shell.nix
+skip-ghc-check: true
